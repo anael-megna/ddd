@@ -1,8 +1,7 @@
-from dataclasses import dataclass
-from datetime import date, datetime, timedelta, timezone
+from datetime import date
 
-from abonnement.hexagon.domain.abonnement import Abonnement, AbonnementRepo, AbonnementSouscrit, IdAbonnement
-from abonnement.hexagon.domain.prospect import IdProspect, ProspectIntrouvable
+from abonnement.hexagon.domain.abonnement import Abonnement, AbonnementRepo, IdAbonnement
+from abonnement.hexagon.domain.prospect import IdProspect
 from abonnement.hexagon.domain.formule import FormuleService, IdFormule
 from abonnement.hexagon.domain.prospect import ProspectService
 
